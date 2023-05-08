@@ -1,0 +1,21 @@
+{
+  "name": "randombytes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0"
+  }
+}
