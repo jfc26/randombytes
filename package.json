@@ -1,15 +1,20 @@
 {
   "name": "randombytes",
   "version": "1.0.0",
-  "description": "",
+  "description": "randombytes",
   "main": "index.js",
   "scripts": {
+    "start": "node build/index.js",
     "dev": "nodemon src/index.ts",
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "randombytes": "./bin/index.js"
+  },
+  "keywords": ["randombytes"],
+  "author": "MIT",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.1",
