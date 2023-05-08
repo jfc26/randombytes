@@ -1,5 +1,13 @@
 # randombytes
 
+
+## Install
+
+```cmd
+npm install -g zitska-randombytes
+```
+
+
 ```cmd
 node build/index.js --help
 

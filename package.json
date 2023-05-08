@@ -1,8 +1,13 @@
 {
-  "name": "randombytes",
+  "name": "zitska-randombytes",
   "version": "1.0.0",
   "description": "randombytes",
-  "main": "index.js",
+  "main": "build/index.js",
+  "files": [
+    "./build/",
+    "./bin"
+  ],
+
   "scripts": {
     "start": "node build/index.js",
     "dev": "nodemon src/index.ts",
